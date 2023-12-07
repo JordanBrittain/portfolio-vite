@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .px-site {
+    @apply px-6 lg:px-20 2xl:px-32;
+  }
+}
+
 
 :root {
   //font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -31,7 +37,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  //place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
