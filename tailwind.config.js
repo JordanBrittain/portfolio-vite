@@ -7,6 +7,9 @@ export default {
       display: ["halyard-display", "Inter", "sans-serif"],
     },
     extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       colors: {
         primary: {
           50: '#fdf8f6',

@@ -1,5 +1,5 @@
 function PageContainer({ children }) {
-    return <div className="w-screen flex flex-col">
+    return <div className="w-full flex flex-col">
         {children}
     </div>;
 }
