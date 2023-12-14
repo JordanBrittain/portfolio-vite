@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 <CaseStudyTile
        imgSrc="/ss-1.png" 
-       title="FloSports Schedule & Scores" 
+       title="MileSplit Live" 
        subtext="A ground-up redesign of a feature in our native mobile app."/>
 
 <CaseStudyTile
