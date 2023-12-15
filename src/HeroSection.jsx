@@ -1,10 +1,16 @@
 import ArrowButton from "./ArrowButton";
+import SunIcon from "./SunIcon";
 
 function HeroSection() {
     return (
         <div className="px-site w-full flex items-end justify-between flex-1 pb-16 2xl:pb-28">
-            <h1 className="font-display self-center text-zinc-950 font-book text-4xl lg:text-7.5xl 2xl:text-8xl w-full lg:w-10/12">
-            Hey, I'm <span className="border-b-2 group cursor-pointer border-primary-500 inline-block h-24">Jordan<div className="bg-[url('my-face.png')] transition-all duration-500 scale-0 group-hover:scale-100 w-36 bg-cover rounded-full h-36 relative -top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div></span>, an end-to-end product designer experienced in leading projects across web and mobile apps.
+            <h1 className="font-display group self-center text-zinc-950 font-book text-4xl lg:text-7.5xl 2xl:text-8xl w-full lg:w-10/12">
+            I'm Jordan
+            <div className="bg-[url('my-face.png')] w-24 bg-cover rounded-full h-16 relative top-2 mx-4 inline-block bg-center transition-all duration-500
+            group-hover:w-36"></div> 
+            an end-to-end product designer experienced in leading projects 
+            <div className="inline-block top-4 relative mx-4"><div className="inline-block w-20 h-20 animate-spin-slow fill-primary-500"><SunIcon/></div></div>
+             across web and mobile apps.
             
             </h1>
 

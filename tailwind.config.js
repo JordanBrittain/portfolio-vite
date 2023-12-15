@@ -11,6 +11,10 @@ export default {
         '4/3': '4 / 3',
       },
       
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+      },
+
       fontSize: {
         '7.5xl' : ['86px', '96px'],
       },
