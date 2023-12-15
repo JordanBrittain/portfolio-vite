@@ -10,6 +10,11 @@ export default {
       aspectRatio: {
         '4/3': '4 / 3',
       },
+      
+      fontSize: {
+        '7.5xl' : ['86px', '96px'],
+      },
+
       colors: {
         primary: {
           50: '#fdf8f6',
