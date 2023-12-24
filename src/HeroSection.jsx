@@ -9,7 +9,7 @@ function HeroSection() {
             <div className="bg-[url('my-face.png')] w-24 bg-cover rounded-full h-16 relative top-2 mx-4 inline-block bg-center transition-all duration-500
             group-hover:w-36"></div> 
             an end-to-end product designer experienced in leading projects 
-            <div className="inline-block top-4 relative mx-4"><div className="inline-block w-20 h-20 animate-spin-slow fill-primary-500"><SunIcon/></div></div>
+            <div className="inline-block top-4 relative mx-4 scale-95"><div className="inline-block w-20 h-20 animate-spin-slow fill-primary-500"><SunIcon/></div></div>
              across web and mobile apps.
             
             </h1>
