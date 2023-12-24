@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
       <SectionHeader title="Featured Work"/>
 
-      <div className="px-site w-full grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-14 pb-32 lg:pb-40">
+      <div className="px-site w-full grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-y-20 lg:gap-16 pb-32 lg:pb-40">
       
       <CaseStudyTile
        imgSrc="/ss-1.png" 
