@@ -12,7 +12,7 @@ hover:before:left-1/2 hover:before:top-1/2 hover:before:-translate-x-1/2 hover:b
     >
       
         <div className="transition-all fill-white duration-1000 absolute -top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 group-hover:top-1/2"><ArrowIcon/></div>
-        <div className="transition-all fill-zinc-950 duration-1000 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 group-hover:top-full group-hover:translate-y-0"><ArrowIcon/></div>
+        <div className="transition-all fill-slate-900 duration-1000 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 group-hover:top-full group-hover:translate-y-0"><ArrowIcon/></div>
       
     </button>
   );

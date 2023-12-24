@@ -10,7 +10,7 @@ import CaseStudyTile from "./CaseStudyTile";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <PageContainer>
-      <div className="h-screen flex flex-col">
+      <div className="h-[640px] lg:h-screen flex flex-col">
       <Navigation />
       <HeroSection />
       </div>
