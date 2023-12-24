@@ -6,6 +6,7 @@ import PageContainer from "./PageContainer";
 import HeroSection from "./HeroSection";
 import SectionHeader from "./SectionHeader";
 import CaseStudyTile from "./CaseStudyTile";
+import Footer from "./Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,7 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
       <SectionHeader title="Featured Work"/>
 
-      <div className="px-site w-full grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-y-20 lg:gap-16 pb-32 lg:pb-40">
+      <div className="px-site w-full grid grid-cols-1 gap-x-14 gap-y-16 lg:grid-cols-2 lg:gap-y-20 lg:gap-16 pb-32 lg:pb-40">
       
       <CaseStudyTile
        imgSrc="/ss-1.png" 
@@ -35,6 +36,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
        subtext="A ground-up redesign of a feature in our native mobile app."/>
 
       </div>
+
+      <Footer/>
 
     </PageContainer>
   </React.StrictMode>
