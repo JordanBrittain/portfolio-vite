@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navigation from "./Navigation.jsx";
+import PageContainer from "./PageContainer";
+import HeroSection from "./HeroSection";
+import SectionHeader from "./SectionHeader";
+import CaseStudyTile from "./CaseStudyTile";
+import Footer from "./Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <PageContainer>
+      <div className="h-[640px] lg:h-screen flex flex-col">
+        <Navigation />
+        <HeroSection />
       </div>
-      <h1 className='text-6xl font-bold'>Hey Wassup Im Jordan</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <SectionHeader title="Featured Work" />
+
+      <div className="px-site w-full grid grid-cols-1 gap-x-14 gap-y-16 lg:grid-cols-2 lg:gap-y-20 lg:gap-16 pb-32 lg:pb-40">
+        <CaseStudyTile
+          imgSrc="/ss-1.png"
+          title="FloSports Schedule & Scores"
+          subtext="A ground-up redesign of a feature in our native mobile app."
+        />
+
+        <CaseStudyTile
+          imgSrc="/ss-1.png"
+          title="MileSplit Live"
+          subtext="A ground-up redesign of a feature in our native mobile app."
+        />
+
+        <CaseStudyTile
+          imgSrc="/ss-1.png"
+          title="FloSports Schedule & Scores"
+          subtext="A ground-up redesign of a feature in our native mobile app."
+        />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      <Footer />
+    </PageContainer>
+  );
 }
 
-export default App
+export default App;
