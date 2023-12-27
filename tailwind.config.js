@@ -9,6 +9,7 @@ export default {
     extend: {
       aspectRatio: {
         '4/3': '4 / 3',
+        '2/1': '2 / 1',
       },
       
       animation: {

@@ -2,6 +2,9 @@ import CaseHero from "./CaseHero";
 import Navigation from "./Navigation";
 import PageContainer from "./PageContainer";
 import TextSection from "./TextSection";
+import Media from "./Media";
+import Caption from "./Caption";
+import Content from "./Content";
 
 function ScheduleCS() {
   return (
@@ -17,6 +20,46 @@ function ScheduleCS() {
 
       I created a regular project by talking to current customers about how they used the product. These conversations revealed that the product was meeting their basic needs but was generally lacking depth."
       />
+      <div className="w-full px-site flex flex-row gap-10">
+        <div className="flex-1">
+      <Media
+      source="/ss-1.png"
+      type="image"
+      ratio="square"
+      alt="test"
+      />
+      </div>
+      <div className="flex-1">
+      <Media
+      source="/performance-comp.mp4"
+      type="video"
+      ratio="square"
+      />
+      </div>
+      </div>
+      <div className="w-full px-site flex flex-row gap-10">
+      <Media
+      source="/ss-1.png"
+      type="image"
+      ratio="rectangle"
+      alt="test"
+      />
+
+      </div>
+
+      <Caption
+      copy="Wohoo, here's some caption text. yeehaw."
+      />
+
+      <Content
+      type="image" 
+      ratio="rectangle" 
+      source="/ss-1.png" 
+      alt="test" 
+      caption={true}
+      captionText="Wohoo, here's some caption text. yeehaw."
+      />
+      
     </PageContainer>
   );
 }
