@@ -20,6 +20,7 @@ function App() {
           imgSrc="/ss-1.png"
           title="FloSports Schedule & Scores"
           subtext="A ground-up redesign of a feature in our native mobile app."
+          target="schedule-cs"
         />
 
         <CaseStudyTile

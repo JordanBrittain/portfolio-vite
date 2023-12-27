@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-import CaseStudyTile from "./CaseStudyTile";
+import ScheduleCS from "./ScheduleCS";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "profile",
-    element: <CaseStudyTile />,
+    path: "schedule-cs",
+    element: <ScheduleCS />,
   },
 ]);
 
