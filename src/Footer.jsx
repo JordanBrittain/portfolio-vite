@@ -1,7 +1,7 @@
 import ArrowButton from "./ArrowButton";
 
 function Footer() {
-    return <footer className="bg-slate-100 pt-10 lg:pt-16 pb-20 2xl:pb-24 w-full px-site flex flex-row justify-between items-end">
+    return <footer className="bg-slate-100 pt-10 lg:pt-16 pb-20 2xl:py-24 w-full px-site flex flex-row justify-between items-end 2xl:items-center">
         <div className="flex flex-col gap-2">
     <div className=" text-4xl lg:text-6xl font-regular font-display text-slate-950">Get in touch</div>
     <div className="flex flex-col gap-1">

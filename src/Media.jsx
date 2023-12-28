@@ -13,7 +13,7 @@ function Media({ type, ratio, source, alt }) {
         <img src={source} alt={alt} className={`object-cover ${aspectRatioClass}`} />
       )}
       {type === "video" && (
-        <video src={source} controls muted loop autoPlay className={`object-cover ${aspectRatioClass}`} />
+        <video src={source} muted loop autoPlay className={`object-cover ${aspectRatioClass}`} />
       )}
     </div>
   );

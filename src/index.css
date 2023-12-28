@@ -8,6 +8,10 @@
   .px-site {
     @apply px-6 lg:px-20 2xl:px-32;
   }
+
+  .w-cs {
+  @apply w-[680px] 2xl:w-[800px];
+  }
 }
 
 
