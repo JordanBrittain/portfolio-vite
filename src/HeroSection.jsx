@@ -10,7 +10,7 @@ function HeroSection() {
             </h1>
 
 
-            <div className="hidden lg:block"><ArrowButton/></div>
+            <div className="hidden lg:block"><ArrowButton destination="#section-header"/></div>
 
         </div>
     );

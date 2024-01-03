@@ -19,20 +19,14 @@ function App() {
         <CaseStudyTile
           imgSrc="/ss-1.png"
           title="FloSports Schedule & Scores"
-          subtext="A ground-up redesign of a feature in our native mobile app."
+          subtext="Redesigning a feature to support an evolving business."
           target="schedule-cs"
         />
 
         <CaseStudyTile
-          imgSrc="/ss-1.png"
-          title="MileSplit Live"
-          subtext="A ground-up redesign of a feature in our native mobile app."
-        />
-
-        <CaseStudyTile
-          imgSrc="/ss-1.png"
-          title="FloSports Schedule & Scores"
-          subtext="A ground-up redesign of a feature in our native mobile app."
+          imgSrc="/ms-live-cs.png"
+          title="MileSplit Live Redesign"
+          subtext="Redesigning a product to increase engagement."
         />
       </div>
 

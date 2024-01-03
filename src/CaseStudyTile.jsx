@@ -9,7 +9,7 @@ return (
 <div className="flex flex-row gap-8 items-end justify-between lg:items-start lg:justify-start lg:flex-col lg:gap-4">
 
         <div className="flex flex-col flex-1">
-            <div className="text-lg font-semibold">{title}</div>
+            <div className="text-lg text-slate-950 font-semibold">{title}</div>
             <div className="text-base">{subtext}</div>
         </div>
 
