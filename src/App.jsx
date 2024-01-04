@@ -4,10 +4,12 @@ import HeroSection from "./HeroSection";
 import SectionHeader from "./SectionHeader";
 import CaseStudyTile from "./CaseStudyTile";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function App() {
   return (
     <PageContainer>
+<ScrollToTop />
       <div className="h-[640px] lg:h-screen flex flex-col">
         <Navigation />
         <HeroSection />

@@ -5,10 +5,12 @@ import TextSection from "./TextSection";
 import ContentSection from "./ContentSection";
 import QuoteSection from "./QuoteSection";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 function ScheduleCS() {
   return (
     <PageContainer>
+      <ScrollToTop />
       <Navigation />
       <CaseHero
         title="FloSports Schedule & Scores"
