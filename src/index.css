@@ -10,7 +10,7 @@
   }
 
   .w-cs {
-  @apply w-[680px] 2xl:w-[800px];
+  @apply w-10/12 lg:w-[680px] 2xl:w-[800px];
   }
 }
 

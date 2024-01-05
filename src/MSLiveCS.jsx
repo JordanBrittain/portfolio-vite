@@ -7,49 +7,56 @@ import QuoteSection from "./QuoteSection";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
-function ScheduleCS() {
+function MSLiveCS() {
   return (
     <PageContainer>
       <ScrollToTop />
       <Navigation />
       <CaseHero
-        title="FloSports Schedule & Scores"
+        title="MileSplit Live Redesign"
         description={[
-          "FloSports provides coverage and live streams for a wide range of sports, which can be accessed on various platforms including iOS and Android.",
-          "The apps feature a schedule that allows customers to stay informed about upcoming events, games, and matches for their favorite sports. The schedule was sufficient in the early days of the business, but FloSports was introducing thousands of new events to their offering and planned on eventually providing additional features such as live scores.",
-          "I was tasked with redesigning the schedule to support the influx of new events and accommodate future improvements.",
+          "MileSplit Live helps athletes, coaches, and fans keep up with track & field meets in real-time. The product belongs to MileSplit, which is a track and cross country hub that publishes a variety of data and editorial content including meet results, rankings, and articles.",
+          "MileSplit Live was doing well, but the company recognized the potential to improve the aesthetics and usability of the product. As an in-house designer, I was tasked to help realize this potential.",
         ]}
       />
       <TextSection
-        title="Exploring the Possibilities"
-        copy="I began the project by conducting a high-level exploration of potential solutions. Following this exploration, I vetted the ideas with stakeholders and converged on a direction that we felt was promising."
+        title="Understanding the Problem"
+        copy="I began the project by talking to current customers about how they used the product. These conversations revealed that the product was meeting their basic needs but was generally lacking depth."
       />
 
-      <ContentSection
+<ContentSection
         style="inline"
         contentOne={{
           type: "image",
-          source: "/wireframes.png",
-          alt: "A selection of low-fidelity wireframes I used to explore the solution space",
+          source: "/ms-quotes.png",
+          alt: "verbatim quotes gathered from user interviews",
           caption: true,
-          captionText:
-            "A selection of low-fidelity wireframes I used to explore the solution space.",
+          captionText: "Verbatim quotes gathered from user interviews.",
         }}
       />
 
       <TextSection
-        title="Validating the Designs"
-        copy="After settling on a direction, I proceeded to create a prototype and user-test the designs. The testing went great and we were able to catch and address some issues before moving to the development stage."
+        title="Final Designs - Improving Navigability"
+        copy="Although the product contained a treasure trove of valuable data and content, customers were struggling to find and discover all that was offered. To address this challenge, we made improvements to the event list and filters, and designed a new search feature."
       />
 
-      <ContentSection
-        style="inline"
+<ContentSection
+        style="double"
         contentOne={{
-          type: "image",
-          source: "/schedule-quotes.png",
-          alt: "verbatim quotes gathered from the testing process",
+          type: "video",
+          source: "/ms-schedule.mp4",
+          alt: "The 'Month Picker' lets users navigate to events far in the future or past.",
           caption: true,
-          captionText: "Verbatim quotes gathered from the testing process.",
+          captionText:
+            "The 'Month Picker' lets users navigate to events far in the future or past.",
+        }}
+        contentTwo={{
+          type: "image",
+          source: "/ms-search.png",
+          alt: "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
+          caption: true,
+          captionText:
+            "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
         }}
       />
 
@@ -58,7 +65,50 @@ function ScheduleCS() {
         copy="We introduced features that let customers seamlessly navigate through time, whether they’re interested in what’s happening tomorrow, or what’s happening next month."
       />
 
-      <ContentSection
+      
+<ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/ss-event-comp.png",
+          alt: "A few variations of the event component.",
+          caption: true,
+          captionText: "A few variations of the event component.",
+        }}
+      />
+  
+
+<QuoteSection
+        text="“Working with Jordan on the FloSports Schedule/Scores page was a great experience. Thanks to his focus on product discovery, we were able to discover and implement new features that significantly enhanced the user experience. He also brought a relentless work ethic to the project, ensuring that we met our deadlines and delivered high-quality work. Jordan was very collaborative, always open to feedback, and willing to work with the team to find solutions to any challenges we faced.”"
+        name="Sammy Rice"
+        title="Product Manager"
+        image="/my-face.png"
+        alt="Jordan's Face"
+      />
+
+
+      <TextSection
+        title="Filtering and Searching"
+        copy="We implemented filters and a search feature in order to help customers cut through the noise and get to the specific event or subset of events they’re interested in."
+      />
+
+<ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/ss-event-comp.png",
+          alt: "A few variations of the event component.",
+          caption: true,
+          captionText: "A few variations of the event component.",
+        }}
+      />
+
+      <TextSection
+        title="Vision for the Future"
+        copy="Integrating scores into the schedule was not within the scope of the first phase of the project. However, we knew this was something our customers would love, and that we eventually wanted to do. So, I did some exploration to envision what that integration might look like."
+      />
+
+<ContentSection
         style="double"
         contentOne={{
           type: "image",
@@ -75,63 +125,6 @@ function ScheduleCS() {
           caption: true,
           captionText:
             "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
-        }}
-      />
-
-      <TextSection
-        title="Event List"
-        copy="I designed the list components to prioritize critical event information while also ensuring they were uncluttered and easy to scan."
-      />
-
-      <ContentSection
-        style="single"
-        contentOne={{
-          type: "image",
-          source: "/ss-event-comp.png",
-          alt: "A few variations of the event component.",
-          caption: true,
-          captionText: "A few variations of the event component.",
-        }}
-      />
-
-<QuoteSection
-        text="“Working with Jordan on the FloSports Schedule/Scores page was a great experience. Thanks to his focus on product discovery, we were able to discover and implement new features that significantly enhanced the user experience. He also brought a relentless work ethic to the project, ensuring that we met our deadlines and delivered high-quality work. Jordan was very collaborative, always open to feedback, and willing to work with the team to find solutions to any challenges we faced.”"
-        name="Sammy Rice"
-        title="Product Manager"
-        image="/my-face.png"
-        alt="Jordan's Face"
-      />
-
-
-      <TextSection
-        title="Filtering and Searching"
-        copy="We implemented filters and a search feature in order to help customers cut through the noise and get to the specific event or subset of events they’re interested in."
-      />
-
-      <ContentSection
-        style="inline"
-        contentOne={{
-          type: "video",
-          source: "/schedule-filters.mp4",
-          alt: "A few variations of the event component.",
-          caption: true,
-          captionText: "A few variations of the event component.",
-        }}
-      />
-
-      <TextSection
-        title="Vision for the Future"
-        copy="Integrating scores into the schedule was not within the scope of the first phase of the project. However, we knew this was something our customers would love, and that we eventually wanted to do. So, I did some exploration to envision what that integration might look like."
-      />
-
-      <ContentSection
-        style="single"
-        contentOne={{
-          type: "image",
-          source: "/scores.png",
-          alt: "A few variations of the event component.",
-          caption: true,
-          captionText: "A few variations of the event component.",
         }}
       />
 
@@ -159,4 +152,4 @@ function ScheduleCS() {
   );
 }
 
-export default ScheduleCS;
+export default MSLiveCS;

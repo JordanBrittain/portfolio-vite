@@ -29,6 +29,7 @@ function App() {
           imgSrc="/ms-live-cs.png"
           title="MileSplit Live Redesign"
           subtext="Redesigning a product to increase engagement."
+          target="ms-live-cs"
         />
       </div>
 
