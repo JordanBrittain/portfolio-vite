@@ -3,7 +3,7 @@ import Content from "./Content";
 function ContentSection({style, contentOne, contentTwo}) {
 
 return (
-<div className={`px-site pt-10 pb-16 flex flex-col lg:flex-row ${style === 'inline' ? 'w-cs px-0 mx-auto pt-0' : 'w-full'} gap-16`}>
+<div className={`px-site pt-6 2xl:pt-10 pb-16 flex flex-col lg:flex-row ${style === 'inline' ? 'w-cs px-0 mx-auto !pt-0' : 'w-full'} gap-16`}>
 
 <Content
 type={contentOne.type} 
