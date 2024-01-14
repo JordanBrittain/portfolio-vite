@@ -55,7 +55,7 @@ function ScheduleCS() {
 
       <TextSection
         title="Final Designs - Browsing by Date"
-        copy="We introduced features that let customers seamlessly navigate through time, whether they’re interested in what’s happening tomorrow, or what’s happening next month."
+        copy="I designed features that let customers seamlessly navigate through time, whether they’re interested in what’s happening tomorrow, or what’s happening next month."
       />
 
       <ContentSection
@@ -96,16 +96,16 @@ function ScheduleCS() {
 
 <QuoteSection
         text="“Working with Jordan on the FloSports Schedule/Scores page was a great experience. Thanks to his focus on product discovery, we were able to discover and implement new features that significantly enhanced the user experience. He also brought a relentless work ethic to the project, ensuring that we met our deadlines and delivered high-quality work. Jordan was very collaborative, always open to feedback, and willing to work with the team to find solutions to any challenges we faced.”"
-        name="Sammy Rice"
+        name="Jarryd Palek"
         title="Product Manager"
-        image="/my-face.png"
+        image="/jarryd.jpeg"
         alt="Jordan's Face"
       />
 
 
       <TextSection
         title="Filtering and Searching"
-        copy="We implemented filters and a search feature in order to help customers cut through the noise and get to the specific event or subset of events they’re interested in."
+        copy="We implemented filters and a search feature in order to help customers get to the specific event or subset of events they’re interested in."
       />
 
       <ContentSection
@@ -113,9 +113,9 @@ function ScheduleCS() {
         contentOne={{
           type: "video",
           source: "/schedule-filters.mp4",
-          alt: "A few variations of the event component.",
+          alt: "A demonstration of the filtering feature.",
           caption: true,
-          captionText: "A few variations of the event component.",
+          captionText: "A demonstration of the filtering feature.",
         }}
       />
 
@@ -129,9 +129,9 @@ function ScheduleCS() {
         contentOne={{
           type: "image",
           source: "/scores.png",
-          alt: "A few variations of the event component.",
+          alt: "Exploration of how scores might be implemented into the schedule components.",
           caption: true,
-          captionText: "A few variations of the event component.",
+          captionText: "Exploration of how scores might be implemented into the schedule components.",
         }}
       />
 

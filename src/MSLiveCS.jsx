@@ -37,7 +37,7 @@ function MSLiveCS() {
 
       <TextSection
         title="Final Designs - Improving Navigability"
-        copy="Although the product contained a treasure trove of valuable data and content, customers were struggling to find and discover all that was offered. To address this challenge, we made improvements to the event list and filters, and designed a new search feature."
+        copy="Although the product contained a treasure trove of valuable data and content, customers were struggling to find and discover all that was offered. To address this challenge, I made improvements to the event list and filters, and designed a new search feature."
       />
 
 <ContentSection
@@ -45,10 +45,10 @@ function MSLiveCS() {
         contentOne={{
           type: "video",
           source: "/ms-schedule.mp4",
-          alt: "The 'Month Picker' lets users navigate to events far in the future or past.",
+          alt: "I redesigned the event list to be easier to scan and filter.",
           caption: true,
           captionText:
-            "The 'Month Picker' lets users navigate to events far in the future or past.",
+            "I redesigned the event list to be easier to scan and filter.",
         }}
         contentTwo={{
           type: "image",
@@ -56,13 +56,13 @@ function MSLiveCS() {
           alt: "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
           caption: true,
           captionText:
-            "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
+            "Searching lets users quickly get to the team, athlete, or event they're looking for.",
         }}
       />
 
       <TextSection
-        title="Final Designs - Browsing by Date"
-        copy="We introduced features that let customers seamlessly navigate through time, whether they’re interested in what’s happening tomorrow, or what’s happening next month."
+        title="Showcasing Rankings and Records"
+        copy="In track and cross country, rankings and records are essential for keeping participants and fans up-to-date with the latest in the sport. I catered to this interest by designing ways to make rankings and records information more accessible and engaging."
       />
 
       
@@ -70,79 +70,81 @@ function MSLiveCS() {
         style="single"
         contentOne={{
           type: "image",
-          source: "/ss-event-comp.png",
-          alt: "A few variations of the event component.",
+          source: "/ms-rankings.png",
+          alt: "A selection of components used to showcase rankings & records.",
           caption: true,
-          captionText: "A few variations of the event component.",
+          captionText: "A selection of components used to showcase rankings & records.",
         }}
       />
   
 
 <QuoteSection
-        text="“Working with Jordan on the FloSports Schedule/Scores page was a great experience. Thanks to his focus on product discovery, we were able to discover and implement new features that significantly enhanced the user experience. He also brought a relentless work ethic to the project, ensuring that we met our deadlines and delivered high-quality work. Jordan was very collaborative, always open to feedback, and willing to work with the team to find solutions to any challenges we faced.”"
+        text="“I worked with Jordan on a ground-up product redesign and he was awesome to work with. His design style is incredibly collaborative and flexible, always listening to external users and internal SMEs, he found a way to build a design that appealed to all of them. It's hard to do a product redesign that can satisfy engineering requirements, product KPIs, and overall business goals but Jordan has proven time and time again he is up to the task as a product designer.“"
         name="Sammy Rice"
         title="Product Manager"
-        image="/my-face.png"
+        image="/sammy.jpeg"
         alt="Jordan's Face"
       />
 
 
-      <TextSection
-        title="Filtering and Searching"
-        copy="We implemented filters and a search feature in order to help customers cut through the noise and get to the specific event or subset of events they’re interested in."
+<TextSection
+        title="Optimizing Scan-ability"
+        copy="Finish times, splits, marks, heights, and distances are the core offering of the product. To ensure these results were presented in the most engaging and consumable way possible, I redesigned the tables in the product to be more visually appealing and scannable."
       />
 
 <ContentSection
         style="single"
         contentOne={{
           type: "image",
-          source: "/ss-event-comp.png",
-          alt: "A few variations of the event component.",
+          source: "/ms-table.png",
+          alt: "A component presenting the results of a 1600 meter event.",
           caption: true,
-          captionText: "A few variations of the event component.",
+          captionText: "A component presenting the results of a 1600 meter event.",
         }}
       />
 
-      <TextSection
-        title="Vision for the Future"
-        copy="Integrating scores into the schedule was not within the scope of the first phase of the project. However, we knew this was something our customers would love, and that we eventually wanted to do. So, I did some exploration to envision what that integration might look like."
+<TextSection
+        title="Integrating Athlete Profiles"
+        copy="Athletes are the heart of the sport, and behind each record and finishing time is a story. To provide a more comprehensive experience, we introduced athlete profiles to the product, enabling customers to delve into these stories."
       />
 
 <ContentSection
         style="double"
         contentOne={{
           type: "image",
-          source: "/month-picker.png",
-          alt: "The 'Month Picker' lets users navigate to events far in the future or past.",
+          source: "/ms-athlete-prof.png",
+          alt: "An athlete's profile features essential information such as the events they're participating in, and their state and national rankings.",
           caption: true,
           captionText:
-            "The 'Month Picker' lets users navigate to events far in the future or past.",
+            "An athlete's profile features essential information such as the events they're participating in, and their state and national rankings.",
         }}
         contentTwo={{
-          type: "video",
-          source: "/schedule-vid.mp4",
-          alt: "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
+          type: "image",
+          source: "/ms-performance.png",
+          alt: "Users can also dig into how an athlete has performed in the past.",
           caption: true,
           captionText:
-            "The 'Date Scroller' lets users quickly navigate to events in the near future or past without leaving the context of the schedule.",
+            "Users can also dig into how an athlete has performed in the past.",
         }}
       />
 
 
-<TextSection
+      <TextSection
         title="Results"
-        copy="We saw great feedback from the user testing sessions, followed by positive increases in a few key metrics after launching. More importantly, we laid the groundwork for future, high-impact improvements."
+        copy="We launched this redesign alongside efforts from multiple teams at MileSplit, including engineering, rights acquisition, and others. As a result, we saw a significant increase across several metrics."
       />
 
-      <ContentSection
-        style="inline"
+<ContentSection
+        style="single"
         contentOne={{
           type: "image",
-          source: "/schedule-results.png",
-          alt: "A few variations of the event component.",
+          source: "/ms-results.png",
+          alt: "The results.",
           caption: false,
         }}
       />
+
+      
 
 
      
