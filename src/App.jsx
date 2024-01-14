@@ -28,14 +28,14 @@ function App() {
         <CaseStudyTile
           imgSrc="/event-mgmt-cs.png"
           title="Track & Field Event Management Software"
-          subtext="A few snapshots of work I did on MileSplit's event management app."
-          target="ms-live-cs"
+          subtext="A variety of work I did over the years on an event management app."
+          target="meet-mgmt-cs"
         />
 
         <CaseStudyTile
           imgSrc="/ms-live-cs.png"
           title="MileSplit Live Redesign"
-          subtext="Redesigning a product to increase engagement."
+          subtext="Redesigning a consumer-facing product to increase engagement."
           target="ms-live-cs"
         />
       </div>

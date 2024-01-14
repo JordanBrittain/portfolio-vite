@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import ScheduleCS from "./ScheduleCS";
 import MSLiveCS from "./MSLiveCS";
-import ScrollToTop from "./ScrollToTop";
+import MMCS from "./MMCS";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "ms-live-cs",
     element: <MSLiveCS />,
+  },
+  {
+    path: "meet-mgmt-cs",
+    element: <MMCS />,
   },
 ]);
 
