@@ -9,7 +9,7 @@ import ScrollToTop from "./ScrollToTop.jsx";
 function App() {
   return (
     <PageContainer>
-<ScrollToTop />
+      <ScrollToTop />
       <div className="h-[640px] lg:h-screen flex flex-col">
         <Navigation />
         <HeroSection />
@@ -21,8 +21,15 @@ function App() {
         <CaseStudyTile
           imgSrc="/ss-1.png"
           title="FloSports Schedule & Scores"
-          subtext="Redesigning a feature to support an evolving business."
+          subtext="Redesigning a schedule feature to support a growing business."
           target="schedule-cs"
+        />
+
+        <CaseStudyTile
+          imgSrc="/event-mgmt-cs.png"
+          title="Track & Field Event Management Software"
+          subtext="A few snapshots of work I did on MileSplit's event management app."
+          target="ms-live-cs"
         />
 
         <CaseStudyTile
