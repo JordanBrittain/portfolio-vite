@@ -10,7 +10,7 @@ return (
 
         <div className="flex flex-col flex-1">
             <div className="text-lg text-slate-950 font-semibold">{title}</div>
-            <div className="text-base">{subtext}</div>
+            <div className="text-base text-slate-950">{subtext}</div>
         </div>
 
 <div className="w-14 h-14 group-hover:bg-primary-500 transition-all duration-500 rounded-full bg-slate-200 flex items-center justify-center">
