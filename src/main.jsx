@@ -6,6 +6,7 @@ import App from "./App";
 import ScheduleCS from "./ScheduleCS";
 import MSLiveCS from "./MSLiveCS";
 import MMCS from "./MMCS";
+import DSCS from "./DSCS";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "meet-mgmt-cs",
     element: <MMCS />,
+  },
+  {
+    path: "design-system-cs",
+    element: <DSCS />,
   },
 ]);
 

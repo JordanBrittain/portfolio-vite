@@ -33,6 +33,13 @@ function App() {
         />
 
         <CaseStudyTile
+          imgSrc="/ds-thumb.png"
+          title="FloSports Design System"
+          subtext="Creating a multi-platform design system in Figma & React."
+          target="design-system-cs"
+        />
+
+        <CaseStudyTile
           imgSrc="/ms-live-cs.png"
           title="MileSplit Live Redesign"
           subtext="Redesigning a consumer-facing product to increase engagement."
