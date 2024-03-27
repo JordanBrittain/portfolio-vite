@@ -1,18 +1,18 @@
 import ArrowButton from "./ArrowButton";
-import SunIcon from "./SunIcon";
+import Button from "./Button";
 
 function HeroSection() {
     return (
-        <div className="px-site w-full flex flex-col items-center justify-center flex-1 pb-16 2xl:pb-28">
-            <div className="flex flex-col gap-5 w-min">
-            <h1 className="font-display w-max self-center text-zinc-950 font-semibold text-4xl text-center lg:text-8xl 2xl:text-8xl">
+        <div className="px-site w-full flex flex-col gap-11 items-center justify-center pb-32 pt-20 lg:pb-52 lg:pt-28 2xl:pb-80 2xl:pt-56">
+            <div className="flex flex-col gap-4 lg:gap-5 w-min">
+            <h1 className="font-display w-max self-center text-zinc-950 font-semibold text-5xl text-center lg:text-8xl 2xl:text-8xl">
             Hey, I'm Jordan
             </h1>
-            <p className="text-base lg:text-xl text-zinc-900 text-center w-full">I’m an end-to-end product designer skilled at translating complex workflows into simple, intuitive product experiences.</p>
+            <p className="text-base leading-normal lg:leading-normal lg:text-xl text-zinc-900 text-center w-full">I’m an end-to-end product designer skilled at translating complex workflows into simple product experiences.</p>
             </div>
 
 
-            <div className="hidden lg:block"><ArrowButton destination="#section-header"/></div>
+            
 
         </div>
     );

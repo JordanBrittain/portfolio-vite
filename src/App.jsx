@@ -10,40 +10,27 @@ function App() {
   return (
     <PageContainer>
       <ScrollToTop />
-      <div className="h-[640px] lg:h-screen flex flex-col">
-        <Navigation />
-        <HeroSection />
-      </div>
 
-      <SectionHeader title="Featured Work" />
+      <Navigation />
+      <HeroSection />
 
-      <div className="px-site w-full grid grid-cols-1 gap-x-14 gap-y-16 lg:grid-cols-2 lg:gap-y-20 lg:gap-16 pb-32 lg:pb-40">
+      <div className="px-site w-full flex flex-col pb-32 lg:pb-40">
         <CaseStudyTile
-          imgSrc="/ss-1.png"
-          title="FloSports Schedule & Scores"
-          subtext="Redesigning a schedule feature to support a growing business."
+          imgSrc="/mc-thumb.png"
+          title="How I made it cheaper to acquire customers by simplifying our onboarding process."
           target="schedule-cs"
         />
 
         <CaseStudyTile
-          imgSrc="/event-mgmt-cs.png"
-          title="Track & Field Event Management Software"
-          subtext="A variety of work I did over the years on an event management app."
-          target="meet-mgmt-cs"
+          imgSrc="/ia-thumb.png"
+          title="How I increased customer LTV by improving our product’s architecture."
+          target="schedule-cs"
         />
 
         <CaseStudyTile
           imgSrc="/ds-thumb.png"
-          title="FloSports Design System"
-          subtext="Creating a multi-platform design system in Figma & React."
+          title="How I helped our product team ship faster with a design system."
           target="design-system-cs"
-        />
-
-        <CaseStudyTile
-          imgSrc="/ms-live-cs.png"
-          title="MileSplit Live Redesign"
-          subtext="Redesigning a consumer-facing product to increase engagement."
-          target="ms-live-cs"
         />
       </div>
 

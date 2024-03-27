@@ -6,7 +6,7 @@
 
 @layer components {
   .px-site {
-    @apply px-6 lg:px-20 2xl:px-32;
+    @apply px-6 lg:px-20 2xl:px-60;
   }
 
   .w-cs {
