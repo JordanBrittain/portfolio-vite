@@ -4,7 +4,7 @@ import PlaneIcon from "./PlaneIcon";
 function ContactButton() {
   return <a href="mailto:jordan.brittain@gmail.com">
     <button className="
-  flex flex-row group gap-1 px-0 lg:px-6 py-3 bg-transparent border-0 rounded-full relative overflow-hidden transition-all duration-1000
+  flex flex-row group gap-1 px-0 lg:px-6 py-3 bg-primary-100 border-0 rounded-full relative overflow-hidden transition-all duration-1000
   before:w-full before:h-full before:bg-primary-500 before:absolute before:rounded-full before:top-0 before:left-0 before:-translate-x-full before:transition-all before:duration-1000 before:z-0
   hover:before:left-1/2 hover:before:top-1/2 hover:before:-translate-x-1/2 hover:before:-translate-y-1/2 hover:gap-4
   ">
