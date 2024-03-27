@@ -8,10 +8,10 @@ function Navigation() {
       className="w-full py-4 lg:py-8 px-site flex flex-row justify-between items-center"
     >
       <Link to={"/"}>
-        <div className="h-min text-base font-medium hidden lg:block text-zinc-950">
+        <div className="h-min text-base font-normal hidden lg:block text-zinc-950">
           Jordan Brittain
         </div>
-        <div className="lg:hidden text-base font-medium text-zinc-950">JB</div>
+        <div className="lg:hidden text-base font-normal text-zinc-950">JB</div>
       </Link>
       <ContactButton />
     </nav>
