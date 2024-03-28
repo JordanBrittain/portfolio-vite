@@ -1,13 +1,8 @@
-function CaseHero({title, description}) {
+function CaseHero({title}) {
 return (
-<div className="w-full pt-32 flex flex-col items-center">
+<div className="w-full pt-16 pb-6 lg:pt-32 lg:pb-32 flex flex-col items-center">
     <div className="w-cs flex flex-col gap-8">
-        <h1 className="font-display text-6xl font-semibold w-full text-slate-950">{title}</h1>
-        <div className="text-lg 2xl:text-xl 2xl:leading-8 font-normal text-slate-950 flex flex-col gap-4">
-          {description.map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
-        </div>
+        <h1 className="font-display text-4xl lg:text-5xl lg:leading-tight font-semibold w-full text-slate-950">{title}</h1>
     </div>
 </div>
 );

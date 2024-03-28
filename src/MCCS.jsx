@@ -5,13 +5,14 @@ import TextSection from "./TextSection";
 import ContentSection from "./ContentSection";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
+import HeaderSection from "./HeaderSection";
 
 function MCCS() {
   return (
     <PageContainer>
       <ScrollToTop />
       <Navigation />
-      
+
       <CaseHero
         title="How I made it cheaper to acquire customers by simplifying our onboarding process."
         description={[
@@ -19,7 +20,7 @@ function MCCS() {
         ]}
       />
 
-<ContentSection
+      <ContentSection
         style="single"
         contentOne={{
           type: "image",
@@ -28,40 +29,105 @@ function MCCS() {
           caption: false,
         }}
       />
-      
-        <TextSection
-          title="The Product & Problem"
-          copy={[
-            "MileSplit is a vertical software product that simplifies hosting track & field meets. The first step in using the software is setting up a meet, which is a complex process that involves the configuration of dates, registration timelines, divisions, events, rules, and more.",
-            "New customers relied on our customer success team to help them through this process. This solution quickly became unsustainable as the business experienced a period of rapid growth.",
-            "Our customer success team was swamped –  we needed to make the onboarding process easier for our customers.",
-          ]}
-        />
 
-<TextSection
-          title="Digging In"
-          copy={[
-            "I had a series of conversations with our customer success team to understand why our customers couldn’t independently set up meets.",
-          ]}
-        />
+      <TextSection
+        title="The Product & Problem"
+        copy={[
+          "MileSplit is a vertical software product that simplifies hosting track & field meets. The first step in using the software is setting up a meet, which is a complex process that involves the configuration of dates, registration timelines, divisions, events, rules, and more.",
+          "New customers relied on our customer success team to help them through this process. This solution quickly became unsustainable as the business experienced a period of rapid growth.",
+          "Our customer success team was swamped –  we needed to make the onboarding process easier for our customers.",
+        ]}
+      />
 
-<ContentSection
+      <TextSection
+        title="Digging In"
+        copy={[
+          "I had a series of conversations with our customer success team to understand why our customers couldn’t independently set up meets.",
+        ]}
+        chopped={true}
+      />
+
+      <ContentSection
         style="inline"
         contentOne={{
           type: "image",
           source: "/mc-notes.png",
           alt: "images of the onboarding xp",
           caption: true,
-          captionText: "I captured and organized notes from the conversations in FigJam.",
+          captionText:
+            "I captured and organized notes from the conversations in FigJam.",
         }}
       />
-      
 
       <TextSection
-        title="Setting Ourselves Up For Success"
+        title="The Main Issue"
         copy={[
-          "Creating the system from scratch would have been inefficient. We decided to leverage open-source libraries to expedite the process. After thorough research, we chose Tailwind for styling and Radix UI for basic components. This combination struck a balance between efficiency and flexibility.",
+          "Customers primarily struggled with creating divisions and events.",
+          "Divisions categorize participants by skill level—such as Varsity, Junior Varsity, and Freshman—while events are competitions like the 100m dash and shot put.",
+          "The complexity of setting up these components overwhelmed many customers, and the current product experience was not cutting it. We were throwing our customers into the deep end, and they were calling customer success for help.",
         ]}
+      />
+
+      <ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/mc-current-xp.png",
+          alt: "An image displaying the problems with the existing experience.",
+          caption: false,
+        }}
+      />
+
+      <TextSection
+        title="Telling The Story"
+        copy={[
+          "I went and shared this story with the immediate team, adjacent stakeholders, and leadership.",
+          "The story of the first-time customer who struggled to set up their divisions and events because of our confusing software. The story of our customer success team that was swamped from the onslaught of tickets. The story of our astronomical customer acquisition costs that had no signs of lowering and was hurting the bottom line of our business.",
+          "It resonated.",
+          "The organization was eager to remedy the situation, and I had the support to embark on finding a solution.",
+        ]}
+      />
+
+<ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/mc-journey-map.png",
+          alt: "One of the tools I used to tell the story – a user journey map.",
+          caption: true,
+          captionText: "One of the tools I used to tell the story – a user journey map.",
+        }}
+      />
+
+<TextSection
+        title="Finding A Solution"
+        copy={[
+          "I explored solutions and vetted them along the way with the appropriate stakeholders.",
+          "Eventually, I landed on a direction that felt promising. I created a quick prototype to do some task-based testing on with new customers, which led to valuable insights that influenced the final direction of the designs.",
+        ]}
+      />
+
+<ContentSection
+        style="inline"
+        contentOne={{
+          type: "image",
+          source: "/mc-paper-solutions.png",
+          alt: "I used old fashioned pencil and paper to rapidly thinking through solutions.",
+          caption: true,
+          captionText: "I used old fashioned pencil and paper to rapidly thinking through solutions.",
+        }}
+      />
+
+<HeaderSection
+        title="The Final Designs"
+      />
+
+      <TextSection
+        title="Expanding The Onboarding"
+        copy={[
+          "Our software had a brief onboarding flow before spitting out customers into the full-fledged software. I chose to bring the process of creating divisions and events into that onboarding flow in the form of 5 simple steps.",
+        ]}
+        chopped={true}
       />
 
       <ContentSection
@@ -71,7 +137,8 @@ function MCCS() {
           source: "/ds-tech.png",
           alt: "Logos of the technologies we used: Radix UI & Tailwind CSS",
           caption: true,
-          captionText: "I captured and organized notes from the conversations in FigJam.",
+          captionText:
+            "I captured and organized notes from the conversations in FigJam.",
         }}
       />
 

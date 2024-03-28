@@ -8,7 +8,7 @@ function Media({ type, ratio, source, alt }) {
   const aspectRatioClass = aspectRatioClasses[ratio] || "aspect-w-16 aspect-h-9";
 
   return (
-    <div className="rounded-lg overflow-hidden">
+    <div className="rounded-lg border border-zinc-200 overflow-hidden">
       {type === "image" && (
         <img src={source} alt={alt} className={`object-cover ${aspectRatioClass}`} />
       )}

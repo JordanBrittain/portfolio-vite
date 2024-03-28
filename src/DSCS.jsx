@@ -11,12 +11,28 @@ function DSCS() {
     <PageContainer>
       <ScrollToTop />
       <Navigation />
+      
       <CaseHero
-        title="FloSports Design System"
-        description={[
-          "In early 2023, as FloSports was transitioning from Angular to React, we seized the opportunity to create a design system for our consumer-facing products – recognizing the significant productivity boosts it could offer to both design and engineering. My involvement began in the planning stages, and as the project progressed, I stepped into a lead role.",
-        ]}
+        title="How I helped our product team ship faster with a design system."
       />
+
+<ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/ds-rhythm.png",
+          alt: "images of the onboarding xp",
+          caption: false,
+        }}
+      />
+
+<TextSection
+          title="The Backstory"
+          copy={[
+            "In early 2023, as FloSports was transitioning from Angular to React, we seized the opportunity to create a design system for our consumer-facing products – recognizing the significant productivity boosts it could offer to both design and engineering. My involvement began in the planning stages, and as the project progressed, I stepped into a lead role.",
+          ]}
+        />
+
       <div className="-mb-14 lg:-mb-20 2xl:-mb-32">
         <TextSection
           title="Why A Design System?"
@@ -25,6 +41,10 @@ function DSCS() {
           ]}
         />
       </div>
+
+
+
+
 
       <TextSection
         title="Setting Ourselves Up For Success"
