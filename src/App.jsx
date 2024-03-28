@@ -18,7 +18,7 @@ function App() {
         <CaseStudyTile
           imgSrc="/mc-thumb.png"
           title="How I made it cheaper to acquire customers by simplifying our onboarding process."
-          target="schedule-cs"
+          target="meet-creation-cs"
         />
 
         <CaseStudyTile

@@ -6,25 +6,56 @@ import ContentSection from "./ContentSection";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
-function DSCS() {
+function MCCS() {
   return (
     <PageContainer>
       <ScrollToTop />
       <Navigation />
+      
       <CaseHero
-        title="FloSports Design System"
+        title="How I made it cheaper to acquire customers by simplifying our onboarding process."
         description={[
           "In early 2023, as FloSports was transitioning from Angular to React, we seized the opportunity to create a design system for our consumer-facing products – recognizing the significant productivity boosts it could offer to both design and engineering. My involvement began in the planning stages, and as the project progressed, I stepped into a lead role.",
         ]}
       />
-      <div className="-mb-14 lg:-mb-20 2xl:-mb-32">
+
+<ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/mc-splash.png",
+          alt: "images of the onboarding xp",
+          caption: false,
+        }}
+      />
+      
         <TextSection
-          title="Why A Design System?"
+          title="The Product & Problem"
           copy={[
-            "For years, our design and engineering teams struggled with an outdated design system that was often the bottleneck in our process. We faced constant issues like design inconsistencies and lengthy, often difficult QA sessions. Our system was slowing us down, and we knew that our designs were useless if they couldn’t quickly move from Figma to the real product. Understanding that a robust design system is a crucial part of this process, our design and engineering teams set out to create a new, more effective design system.",
+            "MileSplit is a vertical software product that simplifies hosting track & field meets. The first step in using the software is setting up a meet, which is a complex process that involves the configuration of dates, registration timelines, divisions, events, rules, and more.",
+            "New customers relied on our customer success team to help them through this process. This solution quickly became unsustainable as the business experienced a period of rapid growth.",
+            "Our customer success team was swamped –  we needed to make the onboarding process easier for our customers.",
           ]}
         />
-      </div>
+
+<TextSection
+          title="Digging In"
+          copy={[
+            "I had a series of conversations with our customer success team to understand why our customers couldn’t independently set up meets.",
+          ]}
+        />
+
+<ContentSection
+        style="inline"
+        contentOne={{
+          type: "image",
+          source: "/mc-notes.png",
+          alt: "images of the onboarding xp",
+          caption: true,
+          captionText: "I captured and organized notes from the conversations in FigJam.",
+        }}
+      />
+      
 
       <TextSection
         title="Setting Ourselves Up For Success"
@@ -39,7 +70,8 @@ function DSCS() {
           type: "image",
           source: "/ds-tech.png",
           alt: "Logos of the technologies we used: Radix UI & Tailwind CSS",
-          caption: false,
+          caption: true,
+          captionText: "I captured and organized notes from the conversations in FigJam.",
         }}
       />
 
@@ -207,4 +239,4 @@ function DSCS() {
   );
 }
 
-export default DSCS;
+export default MCCS;
