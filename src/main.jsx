@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import DSCS from "./DSCS";
 import MCCS from "./MCCS";
+import IACS from "./IACS";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "meet-creation-cs",
     element: <MCCS />,
+  },
+  {
+    path: "information-architecture-cs",
+    element: <IACS />,
   },
 ]);
 

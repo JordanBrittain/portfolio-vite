@@ -24,7 +24,7 @@ function App() {
         <CaseStudyTile
           imgSrc="/ia-thumb.png"
           title="How I increased customer LTV by improving our product’s architecture."
-          target="schedule-cs"
+          target="information-architecture-cs"
         />
 
         <CaseStudyTile

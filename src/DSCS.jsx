@@ -33,14 +33,15 @@ function DSCS() {
           ]}
         />
 
-      <div className="-mb-14 lg:-mb-20 2xl:-mb-32">
+      
         <TextSection
           title="Why A Design System?"
           copy={[
             "For years, our design and engineering teams struggled with an outdated design system that was often the bottleneck in our process. We faced constant issues like design inconsistencies and lengthy, often difficult QA sessions. Our system was slowing us down, and we knew that our designs were useless if they couldn’t quickly move from Figma to the real product. Understanding that a robust design system is a crucial part of this process, our design and engineering teams set out to create a new, more effective design system.",
           ]}
+          chopped={true}
         />
-      </div>
+      
 
 
 
@@ -51,6 +52,7 @@ function DSCS() {
         copy={[
           "Creating the system from scratch would have been inefficient. We decided to leverage open-source libraries to expedite the process. After thorough research, we chose Tailwind for styling and Radix UI for basic components. This combination struck a balance between efficiency and flexibility.",
         ]}
+        chopped={true}
       />
 
       <ContentSection

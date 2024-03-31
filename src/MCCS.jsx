@@ -12,20 +12,14 @@ function MCCS() {
     <PageContainer>
       <ScrollToTop />
       <Navigation />
-
-      <CaseHero
-        title="How I made it cheaper to acquire customers by simplifying our onboarding process."
-        description={[
-          "In early 2023, as FloSports was transitioning from Angular to React, we seized the opportunity to create a design system for our consumer-facing products – recognizing the significant productivity boosts it could offer to both design and engineering. My involvement began in the planning stages, and as the project progressed, I stepped into a lead role.",
-        ]}
-      />
+      <CaseHero title="How I made it cheaper to acquire customers by simplifying our onboarding process." />
 
       <ContentSection
         style="single"
         contentOne={{
           type: "image",
           source: "/mc-splash.png",
-          alt: "images of the onboarding xp",
+          alt: "N/A",
           caption: false,
         }}
       />
@@ -34,7 +28,7 @@ function MCCS() {
         title="The Product & Problem"
         copy={[
           "MileSplit is a vertical software product that simplifies hosting track & field meets. The first step in using the software is setting up a meet, which is a complex process that involves the configuration of dates, registration timelines, divisions, events, rules, and more.",
-          "New customers relied on our customer success team to help them through this process. This solution quickly became unsustainable as the business experienced a period of rapid growth.",
+          "New customers relied on our customer success team to help them through this process. This solution quickly became unsustainable as the business experienced a period of rapid growth. ",
           "Our customer success team was swamped –  we needed to make the onboarding process easier for our customers.",
         ]}
       />
@@ -52,7 +46,7 @@ function MCCS() {
         contentOne={{
           type: "image",
           source: "/mc-notes.png",
-          alt: "images of the onboarding xp",
+          alt: "N/A",
           caption: true,
           captionText:
             "I captured and organized notes from the conversations in FigJam.",
@@ -73,7 +67,7 @@ function MCCS() {
         contentOne={{
           type: "image",
           source: "/mc-current-xp.png",
-          alt: "An image displaying the problems with the existing experience.",
+          alt: "N/A",
           caption: false,
         }}
       />
@@ -81,46 +75,45 @@ function MCCS() {
       <TextSection
         title="Telling The Story"
         copy={[
-          "I went and shared this story with the immediate team, adjacent stakeholders, and leadership.",
+          "I went and shared this story with the immediate team, adjacent stakeholders, and leadership. ",
           "The story of the first-time customer who struggled to set up their divisions and events because of our confusing software. The story of our customer success team that was swamped from the onslaught of tickets. The story of our astronomical customer acquisition costs that had no signs of lowering and was hurting the bottom line of our business.",
           "It resonated.",
           "The organization was eager to remedy the situation, and I had the support to embark on finding a solution.",
         ]}
       />
 
-<ContentSection
+      <ContentSection
         style="single"
         contentOne={{
           type: "image",
           source: "/mc-journey-map.png",
-          alt: "One of the tools I used to tell the story – a user journey map.",
+          alt: "N/A",
           caption: true,
-          captionText: "One of the tools I used to tell the story – a user journey map.",
+          captionText:
+            "One of the tools I used to tell the story – a user journey map.",
         }}
       />
 
-<TextSection
+      <TextSection
         title="Finding A Solution"
         copy={[
-          "I explored solutions and vetted them along the way with the appropriate stakeholders.",
-          "Eventually, I landed on a direction that felt promising. I created a quick prototype to do some task-based testing on with new customers, which led to valuable insights that influenced the final direction of the designs.",
+          "I explored solutions and vetted them along the way with the appropriate stakeholders. Eventually, I landed on a direction that felt promising. I created a quick prototype to do some task-based testing on with new customers, which led to valuable insights that influenced the final direction of the designs.",
         ]}
       />
 
-<ContentSection
+      <ContentSection
         style="inline"
         contentOne={{
           type: "image",
           source: "/mc-paper-solutions.png",
-          alt: "I used old fashioned pencil and paper to rapidly thinking through solutions.",
+          alt: "N/A",
           caption: true,
-          captionText: "I used old fashioned pencil and paper to rapidly thinking through solutions.",
+          captionText:
+            "I used old fashioned pencil and paper to rapidly thinking through solutions.",
         }}
       />
 
-<HeaderSection
-        title="The Final Designs"
-      />
+      <HeaderSection title="The Final Designs" />
 
       <TextSection
         title="Expanding The Onboarding"
@@ -131,21 +124,22 @@ function MCCS() {
       />
 
       <ContentSection
-        style="inline"
+        style="single"
         contentOne={{
           type: "image",
-          source: "/ds-tech.png",
-          alt: "Logos of the technologies we used: Radix UI & Tailwind CSS",
+          source: "/mc-full-flow.png",
+          alt: "N/A",
           caption: true,
           captionText:
-            "I captured and organized notes from the conversations in FigJam.",
+            "The five steps for setting up divisions and events that were added to the onboarding flow.",
         }}
       />
 
       <TextSection
-        title="Figma Architecture"
+        title="Breaking Things Down"
         copy={[
-          "Our goal was a design system spanning all platforms (iOS, Android, Web, etc.). We opted for a multi-file Figma system, starting with a 'Tokens' file for basic elements (colors, typography, icons), followed by a 'Core Components' file for universal components, and finally, platform-specific files.",
+          "Customers were intimidated by the complexity of the existing product, so I broke the process down into handful of simple steps.",
+          "To keep the experience approachable, non-essential functionality was only revealed when asked for.",
         ]}
       />
 
@@ -153,98 +147,11 @@ function MCCS() {
         style="single"
         contentOne={{
           type: "image",
-          source: "/ds-arch.png",
-          alt: "The architecture of the Figma design system.",
-          caption: true,
-          captionText: "The architecture of the Figma design system.",
-        }}
-      />
-
-      <TextSection
-        title="Building The Tokens"
-        copy={[
-          "During this phase, we created design tokens (typography, colors, etc.) and integrated closely with the engineering team. Our collaboration involved aligning our design elements with the engineering team's Tailwind implementation and actively participating in their sprint planning. This effort was key to ensuring a unified language between design and engineering.",
-        ]}
-      />
-
-      <ContentSection
-        style="double"
-        contentOne={{
-          type: "image",
-          source: "/ds-colors.png",
-          alt: "Our color tokens in Figma.",
-          caption: true,
-          captionText: "Our color tokens in Figma.",
-        }}
-        contentTwo={{
-          type: "image",
-          source: "/ds-tailwind-config.png",
-          alt: "The color token equivalent in the Tailwind config file.",
+          source: "/mc-create-divs.png",
+          alt: "N/A",
           caption: true,
           captionText:
-            "The color token equivalent in the Tailwind config file.",
-        }}
-      />
-
-      <TextSection
-        title="Moving To Components"
-        copy={[
-          "After establishing the tokens, my focus shifted to designing the global components within the design system. To ensure easy adoption by all team members, I developed comprehensive documentation that was accessible and user-friendly for both designers and developers. This approach not only facilitated smoother integration of the system but also fostered a more collaborative environment across our teams.",
-        ]}
-      />
-
-      <ContentSection
-        style="single"
-        contentOne={{
-          type: "image",
-          source: "/ds-docs.png",
-          alt: "The architecture of the Figma design system.",
-          caption: true,
-          captionText: "Documentation for the Toggle Group Item component.",
-        }}
-      />
-
-      <TextSection
-        title="Driving Alignment"
-        copy={[
-          "A critical goal was to achieve a high degree of alignment between the Figma and React components. This alignment was not just aesthetic, but extended to the deeper aspects of their naming conventions and properties. This approach ensured a smoother workflow between designers and developers and significantly reduced the risk of discrepancies during implementation phases.",
-        ]}
-      />
-
-      <ContentSection
-        style="double"
-        contentOne={{
-          type: "image",
-          source: "/ds-figma-props.png",
-          alt: "Our color tokens in Figma.",
-          caption: true,
-          captionText:
-            "This is what the developer sees when inspecting a component in Figma.",
-        }}
-        contentTwo={{
-          type: "image",
-          source: "/ds-react-props.png",
-          alt: "The color token equivalent in the Tailwind config file.",
-          caption: true,
-          captionText:
-            "These are the props for the Button component in React. Note the similarities to the Figma component.",
-        }}
-      />
-
-      <TextSection
-        title="Getting In A Rhythm"
-        copy={[
-          "The project gained momentum, leading to the creation of numerous components and a robust system. Things were finally beginning to take shape, and we were able to start building out a few pages with our new system.",
-        ]}
-      />
-
-      <ContentSection
-        style="single"
-        contentOne={{
-          type: "image",
-          source: "/ds-rhythm.png",
-          alt: "The architecture of the Figma design system.",
-          caption: false,
+            "This is the step in which customers are asked to create the divisions in their meet.",
         }}
       />
 
@@ -252,31 +159,58 @@ function MCCS() {
         style="double"
         contentOne={{
           type: "image",
-          source: "/ds-comps.png",
-          alt: "Our color tokens in Figma.",
-          caption: false,
+          source: "/mc-breadcrumb.png",
+          alt: "N/A",
+          caption: true,
+          captionText:
+            "This component was used in the header of the flow in order to give customers a sense of where they were in the process.",
         }}
         contentTwo={{
           type: "image",
-          source: "/ds-toggle-button.png",
-          alt: "The color token equivalent in the Tailwind config file.",
-          caption: false,
+          source: "/mc-add-div.png",
+          alt: "N/A",
+          caption: true,
+          captionText:
+            "UI that was not immediately necessary, such as the UI for adding a division, was only revealed when the customer indicated they needed it. This kept the initial state of the page simple and focused.",
         }}
       />
 
-      <div className="-mb-14 lg:-mb-20 2xl:-mb-32">
-        <TextSection
-          title="A Small Setback"
-          copy={[
-            "A couple months into the project, the business began facing pressing issues elsewhere, and reallocated engineering resources off of the design system project. This shift could have been a major roadblock, yet it turned out to be a testament to the resilience and utility of our new design system. Even without the complete engineering counterpart, the system brought significant improvements. It was not only more organized than its predecessor but also leveraged some of Figma's advanced features, like variable modes. These enhancements led to a noticeable uptick in our design team's efficiency.",
-          ]}
-        />
-      </div>
+      <ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/mc-create-events.png",
+          alt: "N/A",
+          caption: true,
+          captionText:
+            "There is more complexity to events than just choosing which ones you want, but I abstracted that complexity away to unburden customers and keep the cognitive load minimal.",
+        }}
+      />
+
+      <ContentSection
+        style="double"
+        contentOne={{
+          type: "image",
+          source: "/mc-event-copy.png",
+          alt: "N/A",
+          caption: true,
+          captionText:
+            "I used the language in the subheadings to reassure customers that there would be more control later.",
+        }}
+        contentTwo={{
+          type: "image",
+          source: "/mc-adv-event.png",
+          alt: "N/A",
+          caption: true,
+          captionText:
+            "There are customers that want more control. I catered to them while also protecting those who preferred simplicity by providing users the opportunity to opt into the complexity.",
+        }}
+      />
 
       <TextSection
-        title="The Encore"
+        title="Giving Customers Power"
         copy={[
-          "I really enjoyed working on this project. The deeper I dove into these technologies, the more I realized that understanding them had the potential to magnify my impact as a designer. This led me to build my portfolio (this site) with React and Tailwind. Through this experience, I not only refined my existing skills but also gained hands-on experience with the languages and learned some more advanced concepts.",
+          "In the prior product experience, customers had to switch from page to page in order to edit advanced event settings. The new designs made this process much easier. All of the events and their settings were revealed on a single page, allowing the customer to edit them from a single view.",
         ]}
       />
 
@@ -284,21 +218,40 @@ function MCCS() {
         style="single"
         contentOne={{
           type: "image",
-          source: "/ds-nav-code.png",
-          alt: "The architecture of the Figma design system.",
+          source: "/mc-advanced-page.png",
+          alt: "N/A",
           caption: true,
           captionText:
-            "Some of the code for the navigation component on this portfolio site.",
+            "The advanced event settings page where all of the events and their setting are revealed.",
         }}
       />
 
-      <div className="mb-14 lg:mb-20 2xl:mb-32">
-        <TextSection
-          title="Final Thoughts"
-          copy={[
-            "Despite being deprioritized, the project was a success. The design system provided immediate benefits and prepared us for future developments. It also deepened my understanding of aligning design with development, a valuable asset for future projects.",
-          ]}
-        />
+      <TextSection
+        title="Eliminating Grunt Work"
+        copy={[
+          "The existing experience was monotonous – customers had to do tons of time-consuming creation and editing. To address this, I introduced a step where the customer could choose a template that would pre-populate the divisions and events in their meet, saving them a ton of time.",
+        ]}
+      />
+
+      <ContentSection
+        style="single"
+        contentOne={{
+          type: "image",
+          source: "/mc-templates.png",
+          alt: "N/A",
+          caption: true,
+          captionText: "The step for choosing a template.",
+        }}
+      />
+
+<div className="mb-14 lg:mb-20 2xl:mb-32">
+      <TextSection
+        title="The Results"
+        copy={[
+          "We didn’t have the infrastructure to quantitatively measure the results of the new design, but there was an obvious reduction in the demand on customer success, and an increase in the amount of organic onboarding.",
+          "Our onboarding experience was much more intuitive, resulting in a lower customer acquisition cost that allowed us to expand into new markets with more economic efficiency. ",
+        ]}
+      />
       </div>
 
       <Footer />
