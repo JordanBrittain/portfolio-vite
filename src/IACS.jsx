@@ -71,7 +71,7 @@ function MCCS() {
       <TextSection
         title="Why The Problem Was Worth Solving"
         copy={[
-          "MileSplit's success, similar to other vertical software, lies in providing a comprehensive suite of solutions to the customer. MileSplit's revenue directly correlates with how extensively customers engage with monetized features such as payment collection. We also recognized that the more features a customer utilizes–regardless of monetization–the more likely they are to stick around. So, increasing our customers ability to find and adopt functionality within the product has a direct impact on their life time value.\\",
+          "MileSplit's success, similar to other vertical software, lies in providing a comprehensive suite of solutions to the customer. MileSplit's revenue directly correlates with how extensively customers engage with monetized features such as payment collection. We also recognized that the more features a customer utilizes–regardless of monetization–the more likely they are to stick around. So, increasing our customers ability to find and adopt functionality within the product has a direct impact on their life time value.",
           "Additionally, the business was planning on transitioning the product off of its outdated front-end stack and onto React, necessitating that the front-end of the product be rebuilt. This made it an opportune time to make some architectural changes.",
         ]}
       />
