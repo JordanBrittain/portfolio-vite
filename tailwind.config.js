@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
-      display: ["halyard-display", "Inter", "sans-serif"],
+      display: ["Inter", "sans-serif"],
     },
     extend: {
       aspectRatio: {

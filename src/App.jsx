@@ -1,7 +1,6 @@
 import Navigation from "./Navigation.jsx";
 import PageContainer from "./PageContainer";
 import HeroSection from "./HeroSection";
-import SectionHeader from "./SectionHeader";
 import CaseStudyTile from "./CaseStudyTile";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop.jsx";
