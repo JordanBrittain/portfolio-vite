@@ -17,7 +17,7 @@ export default {
       },
 
       fontSize: {
-        '7.5xl' : ['86px', '96px'],
+        '7.5xl' : ['86px', '108px'],
       },
 
       colors: {

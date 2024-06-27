@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <nav
       id="nav"
-      className="w-full py-4 lg:py-8 px-site flex flex-row justify-between items-center"
+      className="w-full py-4 lg:py-6 px-site flex flex-row justify-between items-center border-b border-zinc-100"
     >
       <Link to={"/"}>
         <div className="h-min text-base font-normal hidden lg:block text-zinc-950">
