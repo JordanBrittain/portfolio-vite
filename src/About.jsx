@@ -1,7 +1,18 @@
+import Navigation from "./Navigation";
+import PageContainer from "./PageContainer";
+import ScrollToTop from "./ScrollToTop";
+import Footer from "./Footer";
+
 function About() {
   return (
-    <div className="w-full pt-16 pb-6 lg:pt-32 lg:pb-60 flex flex-col items-center">
+    
+    <PageContainer>
+      <ScrollToTop />
+      <Navigation />
+    <div id="about" className="w-full pt-16 pb-6 lg:pt-38 lg:pb-72 flex flex-col items-center">
+       
       <div className="w-cs flex flex-col gap-4">
+      <img src="/bike-pack.png" className="rounded mb-12"></img>
         <h1 className="font-display text-4xl lg:text-3xl lg:leading-tight font-semibold w-full text-slate-950">
           About Me
         </h1>
@@ -27,6 +38,8 @@ function About() {
         </p>
       </div>
     </div>
+    <Footer />
+    </PageContainer>
   );
 }
 

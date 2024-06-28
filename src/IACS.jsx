@@ -12,7 +12,7 @@ function MCCS() {
     <PageContainer>
       <ScrollToTop />
       <Navigation />
-      <CaseHero title="How I increased customer LTV by improving our product’s architecture." />
+      <CaseHero title="Increasing customer LTV through intuitive information architecture." />
 
       <ContentSection
         style="single"

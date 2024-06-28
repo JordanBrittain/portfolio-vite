@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function CaseStudyTile({ imgSrc, title, overline, target }) {
   return (
-    <div className="flex flex-col py-16 lg:flex-row gap-4 lg:py-20 2xl:py-24 border-t border-slate-200 last:border-b">
+    <div className="flex flex-col py-16 lg:flex-row gap-4 lg:py-20 2xl:py-24 border-t border-slate-200">
       <img
         className="aspect-4/3 lg:w-3/5 rounded-lg border border-slate-200"
         src={imgSrc}

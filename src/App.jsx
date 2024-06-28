@@ -4,7 +4,6 @@ import HeroSection from "./HeroSection";
 import CaseStudyTile from "./CaseStudyTile";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop.jsx";
-import About from "./About.jsx";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Navigation />
       <HeroSection />
 
-      <div className="px-site w-full flex flex-col pb-32 lg:pb-40">
+      <div id="work" className="px-site w-full flex flex-col pb-32 lg:pb-40">
         <CaseStudyTile
           imgSrc="/mc-thumb.png"
           title="Making it cheaper to acquire customers by simplifying an onboarding process."
@@ -36,8 +35,6 @@ function App() {
           target="design-system-cs"
         />
       </div>
-
-<About/>
 
       <Footer />
     </PageContainer>

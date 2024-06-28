@@ -6,6 +6,7 @@ import App from "./App";
 import DSCS from "./DSCS";
 import MCCS from "./MCCS";
 import IACS from "./IACS";
+import About from "./About";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "information-architecture-cs",
     element: <IACS />,
+  },
+  {
+    path: "about",
+    element: <About />,
   },
 ]);
 

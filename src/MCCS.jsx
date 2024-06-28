@@ -12,7 +12,7 @@ function MCCS() {
     <PageContainer>
       <ScrollToTop />
       <Navigation />
-      <CaseHero title="How I made it cheaper to acquire customers by simplifying our onboarding process." />
+      <CaseHero title="Making it cheaper to acquire customers by simplifying an onboarding process." />
 
       <ContentSection
         style="single"

@@ -13,7 +13,7 @@ function DSCS() {
       <Navigation />
       
       <CaseHero
-        title="How I helped our product team ship faster with a design system."
+        title="Increasing product team velocity with a design system."
       />
 
 <ContentSection
