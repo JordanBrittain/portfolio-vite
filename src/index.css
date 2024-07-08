@@ -30,6 +30,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.embla {
+  width: 100%;
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  width: 100%;
+}
+.embla__slide {
+  aspect-ratio: 16 / 9;
+  min-width: 66%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (min-width: 1024px) {
+  .embla__slide {
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+}
+
+
 
 body {
   margin: 0;

@@ -6,25 +6,29 @@ function Navigation() {
   return (
     <nav
       id="nav"
-      className="w-full py-4 lg:py-6 px-site flex flex-row justify-between items-center border-b border-zinc-100"
+      className="w-full py-4 lg:py-4 pl-4 pr-3 lg:px-site flex flex-row justify-between items-center border-b border-slate-200"
     >
       
-      <div className="flex flex-row items-center gap-6">
+      <div className="h-min text-sm 2xl:text-base lg:w-1/3 font-medium hidden lg:block text-zinc-950">
       <Link to={"/"}>
-      <div className="h-min text-base font-medium hidden lg:block text-zinc-950">
           Jordan Brittain
+          </Link>
         </div>
-        </Link>
-        <div className="flex flex-row gap-1 items-center">
+       
+
+      <div className="flex flex-row flex-1 lg:w-1/3 lg:justify-center items-center gap-6">
+      
+        <div className="flex flex-row gap-0 lg:gap-1 items-center">
       <NavLink destination="/" text="My work" />
       <NavLink destination="about" text="About me" />
       </div>
       </div>
         
-        <div className="lg:hidden text-base font-normal text-zinc-950">JB</div>
+  
       
-      
+      <div className="w-1/3 flex justify-end">
       <ContactButton />
+      </div>
     </nav>
   );
 }
